@@ -2,7 +2,7 @@
 
 int main() {
     // -------------------------------
-    // Movimento da TORRE (FOR loop)
+    // Movimento da TORRE para a direita
     // -------------------------------
     int casasTorre = 5;
     printf("Movimento da Torre:\n");
@@ -11,7 +11,7 @@ int main() {
     }
 
     // -------------------------------
-    // Movimento do BISPO (WHILE loop)
+    // Movimento do BISPO na diagonal cima-direita
     // -------------------------------
     int casasBispo = 5;
     int contadorBispo = 0;
@@ -22,7 +22,7 @@ int main() {
     }
 
     // -------------------------------
-    // Movimento da RAINHA (DO-WHILE loop)
+    // Movimento da Rainha para a esquerda
     // -------------------------------
     int casasRainha = 8;
     int contadorRainha = 0;
@@ -32,5 +32,4 @@ int main() {
         contadorRainha++;
     } while (contadorRainha < casasRainha);
 
-    return 0;
 }
